@@ -1,0 +1,1 @@
+Make hardcoded json under asset and perform crud operation usings service like we did in web API.

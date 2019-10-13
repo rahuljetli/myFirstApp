@@ -1,0 +1,52 @@
+table,th,td{
+    border:1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table th{
+    background: #786868;
+    color:#fff;}
+td button,button,input[type='text']{
+    margin: 5px;
+}
+.Container,table {
+    width: 100%;
+}
+.Create_Edit_container {
+    float: left;
+    width: 45%;
+}
+.Show {
+    float: left;
+    width: 50%;
+}
+button:after{
+    font-family: 'Segoe MDL2 Assets';
+}
+button.edit:after{
+    content: '\E70F';
+}
+button.delete:after{
+    content: '\E74D';
+}
+.Create_Edit_container,.Show {
+    border: 1px solid;
+    margin: 15px;
+}
+.Create_Edit_container h1,
+.Show h1{
+    background: blue;
+    color:#fff;
+    margin: 0px;
+}
+.create_edit {
+    margin: 5px;
+}
+.label {
+    width: 10%;
+    float: left;
+}
+.input {
+    width: 40%;
+}
+

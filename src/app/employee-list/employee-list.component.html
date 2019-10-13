@@ -1,0 +1,57 @@
+<h1>Lazy Loading and Employees CRUD Example</h1>
+<div class="Container">
+  <div class="Create_Edit_container">
+    <h1>Employees Details</h1>
+    <!-- <h2>{{errorMsg}}</h2> -->
+    <form #form >
+      <div class="create_edit">
+        <div class="label"><label for="id">ID:</label></div>
+        <div class="input"><input type="text" #ind></div>
+      </div>
+
+      <div class="create_edit">
+        <div class="label"><label for="Name">Name:</label></div>
+        <div class="input"><input type="text" #name></div>
+      </div>
+
+      <div class="create_edit">
+        <div class="label"><label for="Project">Project: </label></div>
+        <div class="input"><input type="text" #project></div>
+      </div>
+
+      <div class="create_edit">
+        <div class="label"><label for="Project">Address: </label></div>
+        <div class="input"><input type="text" #address></div>
+      </div>
+
+      <div class="create_edit btn">
+        <div class="input"><button class="btn btn-success" (click)="addEmployee(ind)">Add</button></div>
+      </div>
+    </form>
+  </div>
+
+  <div class="Show">
+    <h1>Employees Lists:</h1>
+    <table>
+      <th>Index</th>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Comapny</th>
+      <th>Address</th>
+      <th>Action</th>
+      <tbody>
+        <tr *ngFor="let employee of employees; let i=index">
+          <td>{{i+1}}</td>
+          <td (click)="select(employee)">{{employee.id}}</td>
+          <td>{{employee.Name}}</td>
+          <td>{{employee.Company}}</td>
+          <td>{{employee.Address}}</td>
+          <td>
+            <button (click)= "editUSer(employee)" class="btn btn-primary edit"></button>
+            <button (click) ="deleteUser(employee)" class="btn btn-danger delete"></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

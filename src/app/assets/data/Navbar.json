@@ -1,0 +1,10 @@
+[
+    {"id" : 1, "Name" : "Home(dashboard)", "URL" : "dashboard"},
+    {"id" : 2, "Name" : "Employee List", "URL" : "employee-list"},
+    {"id" : 3, "Name" : "Customer List", "URL" : "customer-list"},
+    {"id" : 4, "Name" : "Parent Page List", "URL" : "ParentPage"},
+    {"id" : 5, "Name" : "Child Page List / Custom Directive", "URL" : "ChildPage"},
+    {"id" : 6, "Name" : "Courses(Ng-Template)", "URL" : "ng-template-ng-for"},
+    {"id" : 7, "Name" : "Lazy Loading", "URL" : "lazy"},
+    {"id" : 8, "Name" : "Courses", "URL" : "PageNotFound"}
+]

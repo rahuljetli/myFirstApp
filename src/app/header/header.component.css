@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+/*  font-size: 250%;
+    border-bottom: 2px solid #eee;
+    width: 100%;*/
+  }
+  .header_Section{
+    margin: 10px;
+  }
+  .logout{
+    background: #336699;
+    color:#fff;
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.Current_Time{
+  color:#336699;
+  font-weight: bold;
+  display: inline-block;
+  width: 33%;
+}

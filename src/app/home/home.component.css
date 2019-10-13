@@ -1,0 +1,12 @@
+h1 {
+    color: #369;
+    font-size: 250%;
+  }
+div>a.enter{
+    font-size: 20px;
+    background: #369;
+    color:#fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none; 
+}

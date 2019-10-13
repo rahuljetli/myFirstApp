@@ -1,0 +1,18 @@
+ul{
+    border-top:2px solid #eee;
+    list-style: none;  
+    padding: 20px 0 20px;
+    text-align: center;
+    background: #369;
+    /* width:100%; 
+    position: fixed;
+    bottom:0; */
+}
+ul.footer li,ul.footer li a{
+    display:inline;
+    padding: 20px 30px;
+    color:#fff;
+}
+li.copyright{
+    color:#fff;
+}

@@ -1,0 +1,9 @@
+<h1>Customer List</h1>
+{{count }}
+  <!-- {{customerList}} -->
+<ul class="slider-items">
+  <li class="slides" *ngFor="let a of customerList" (click)="delete(index)">{{a}}</li>
+  
+</ul>
+<div class="prev" (click)="prev(count)">Prev</div>
+<div class="next" (click)="next(count)">Next</div>

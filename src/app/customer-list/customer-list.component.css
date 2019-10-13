@@ -1,0 +1,12 @@
+.slider-items > li {
+    width: 500px;
+    height: 200px;
+    background: #dedede;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.slider-items > li:first-child {
+    display: flex;
+}

@@ -1,0 +1,24 @@
+  nav.navbar-nav{
+    background: #4466a2;
+    border: 1px solid #4466a2;
+    padding: 0px;
+}
+li.nav-item{
+    padding: 0 5px;
+}
+ul li.nav-item a{
+    color:#fff;
+    padding: 5px;
+}
+ul li.nav-item:hover{
+    background: #fff;
+    color: #4466a2;
+}
+ul li.nav-item a:hover{
+    color: #4466a2;
+}
+
+/* .active{
+    background: #343a45;
+    color:blue;
+} */

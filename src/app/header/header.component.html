@@ -1,0 +1,12 @@
+<!-- <p class="employee" id="employee"></p> -->
+<div class="header_Section">
+  <p class="Current_Time">{{today | date:'mediumTime'}} {{today | date:'fullDate' }}</p>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <a *ngIf="isUserLoggedIn" class="btn btn-primary glyphicon glyphicon-log-out logout" routerLink="/login-form">{{this.jstoday}} Log Out</a>
+</div>
+
+<ng-container *ngIf="isUserLoggedIn">
+  <app-navbar></app-navbar>
+</ng-container>
